@@ -54,7 +54,7 @@ app.post("/login", async (req, res) => {
   }
 });
 
-const port = 80;
+const port = 8000;
 
 app.listen(port, () => {
   console.log("Server is running on port " + port);
